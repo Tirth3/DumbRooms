@@ -1,1 +1,45 @@
-./build/*
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.la
+
+# Compiled binary executables
+*.exe
+*.out
+*.app
+
+# Static and dynamic libraries
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Debug and release directories (common for IDEs)
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+Build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# IDE / editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp
+*.log
+*.tmp
+
+# Other
+*.pch
+*.gch
+
